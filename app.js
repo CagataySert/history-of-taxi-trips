@@ -18,8 +18,10 @@ app.use(express.static(path.join(__dirname, "public")));
 //Middleware
 app.use("/api", protect);
 
-//Routers
+//Controllers
 app.post("/login", login);
+
+//Routers
 app.use("/api/trip", tripRouter);
 
 module.exports = app;
