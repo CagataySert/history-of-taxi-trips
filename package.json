@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "jest --watchAll",
-    "test:watch": "jest --watchAll"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
